@@ -7500,6 +7500,7 @@ GameObject:
   - component: {fileID: 1970688039}
   - component: {fileID: 1970688037}
   - component: {fileID: 1970688036}
+  - component: {fileID: 1970688041}
   m_Layer: 0
   m_Name: Alien (1)
   m_TagString: Untagged
@@ -7516,8 +7517,8 @@ Transform:
   m_GameObject: {fileID: 1970688034}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44.6, y: -55.8, z: -10}
-  m_LocalScale: {x: 1.1970178, y: 1.2369772, z: 1}
+  m_LocalPosition: {x: -65.11, y: -78.41, z: -10}
+  m_LocalScale: {x: 0.737363, y: 0.73241425, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1248254887}
@@ -7660,6 +7661,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1970688041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970688034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 792be2695d1283447aa0e4dd995b6425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
 --- !u!1 &2027592371
 GameObject:
   m_ObjectHideFlags: 0
