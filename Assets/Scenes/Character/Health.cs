@@ -17,6 +17,7 @@ public class Health : MonoBehaviour
         if (currentHealth > 0)
         {
             //player hurt
+            // et ça fait mal
         }
         else
         {
